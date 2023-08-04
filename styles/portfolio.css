@@ -86,8 +86,9 @@ p {
   margin: 30px;
 }
 .project-button {
-  background: var(--branding-color);
-  color: white;
+  background: white;
+  color: var(--branding-color);
+  border: solid var(--branding-color);
   text-decoration: none;
   border-radius: 4px;
   font-family: var(--default-font-family);
@@ -130,9 +131,10 @@ p {
 
   .about-section {
     text-align: centered;
+    padding: 0;
   }
 
   .btn-branding {
     text-align: center;
-}
+  }
 }

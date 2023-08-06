@@ -1,9 +1,9 @@
 /*--branding-color: #6c63ff;
-  --secondary-color: #f9f7fe; #c19898   #f0ece2;*/
+  --secondary-color: #f9f7fe; #c19898 #a45c5c  #f0ece2 #E8ACEC F1E6F1;*/
 
 :root {
-  --branding-color: #a45c5c;
-  --secondary-color: #f0ece2;
+  --branding-color: #70c2c7;
+  --secondary-color: #e8f0f1;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -37,7 +37,7 @@ h1 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
@@ -57,6 +57,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
 p {
   font-size: 16px;
   line-height: 30px;
@@ -83,14 +87,14 @@ p {
 }
 
 .content h3 {
-  font-size:24px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.5;
-  font-family: var(--default-font-family)
+  font-family: var(--default-font-family);
 }
 
 .content p {
-font-size: 14px; 
+  font-size: 14px;
 }
 
 .content {
@@ -118,37 +122,73 @@ font-size: 14px;
 }
 
 .logo {
-  max-width: 125px; 
+  max-width: 115px;
 }
 nav {
-  padding: 10px 0;
-
+  padding: 5px 0;
 }
 
 nav ul {
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
 nav li {
   display: inline;
-  list-style: none; 
-  line-height: 43px;
-  margin-left: 15px;
+  list-style: none;
+  line-height: 120px;
+  margin-left: 50px;
 }
 
-nav a { 
+nav a {
   text-decoration: none;
   color: black;
   transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
-nav li.active a
-{
+nav li.active a {
+  color: var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 40px 120px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  position: relative;
+left: 6px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
   color: var(--branding-color);
 }
 
+footer .social-links a {
+  margin: 0 10px;
+  color: var(--branding-color);
+  font-size: 25px;
+  background-color: var(--secondary-color);
+  padding: 11px 17px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   .project-description {
@@ -182,11 +222,27 @@ nav li.active a
     text-align: center;
   }
 
-.logo {
-  max-width: 75px;
-}
+  .logo {
+    max-width: 75px;
+  }
 
-nav li {
-  margin-left: 5px;
-}
+  nav li {
+    margin-left: 5px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
+  }
+
+   h4 {
+    font-size: 20px;
+  }
+
+  .btn {
+font-size: 18px;
+padding: 10px;
+  }
+
+ 
+
 }

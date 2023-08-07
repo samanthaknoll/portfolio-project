@@ -72,7 +72,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 10px 20px;
 }
 
 .content-container h1 {
@@ -188,6 +188,14 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+.open-sourced-link {
+color: black; 
+}
+
+.open-sourced-link:hover {
+  color:var(--branding-color);
 }
 
 @media (max-width: 900px) {

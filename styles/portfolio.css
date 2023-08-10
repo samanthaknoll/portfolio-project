@@ -67,10 +67,6 @@ p {
   color: 272142;
 }
 
-.project-description {
-  padding: 120px 60px;
-}
-
 .content-container {
   padding: 10px 20px;
 }
@@ -199,9 +195,10 @@ color: black;
 }
 
 @media (max-width: 900px) {
+
   .project-description {
-    padding: 0;
-    text-align: center;
+   padding: 10px;
+   margin: 10px;
   }
 
   h1 {
@@ -209,10 +206,12 @@ color: black;
     line-height: 80px;
     text-align: center;
   }
+
   h2 {
     font-size: 44px;
     text-align: center;
   }
+
   p {
     text-align: center;
   }
@@ -247,10 +246,21 @@ color: black;
   }
 
   .btn {
-font-size: 18px;
-padding: 10px;
+font-size: 12px;
+padding: 8px;
   }
 
- 
+ footer a {
+font-size: 14px;
+ }
+
+ .content-container h1 {
+  line-height: 1;
+}
+
+.project-column-container {
+text-align: center;
+}
+
 
 }

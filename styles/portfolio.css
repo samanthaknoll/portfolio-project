@@ -126,7 +126,7 @@ nav {
 
 nav ul {
   padding: 0;
-  margin: 0;
+  margin-bottom: -25px;
 }
 
 nav li {
@@ -151,12 +151,14 @@ footer .contact-box {
   padding: 40px 120px;
   margin-bottom: 10px;
   border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 footer .contact-box p {
-  margin: 0;
-  position: relative;
-left: 6px;
+  margin-left: 8px;
+  font-size: 18px;
+
 }
 
 footer a {
@@ -195,6 +197,9 @@ color: black;
 }
 
 @media (max-width: 900px) {
+nav ul {
+  margin-right: 15px;
+}
 
   .project-description {
    padding: 10px;
@@ -202,22 +207,27 @@ color: black;
   }
 
   h1 {
-    font-size: 64px;
-    line-height: 80px;
+    font-size: 54px;
+    line-height: 60px;
     text-align: center;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 30px;
     text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 20px;
   }
 
   p {
     text-align: center;
+    line-height: 20px;
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 30px 20px;
   }
 
   .content {
@@ -227,6 +237,8 @@ color: black;
 
   .btn-branding {
     text-align: center;
+    line-height: 16px;
+    margin: 10px;
   }
 
   .logo {
@@ -239,6 +251,12 @@ color: black;
 
   footer .contact-box {
     padding: 30px;
+    margin: 20px;
+  }
+
+  footer .contact-box p {
+    font-size: 12px;
+    margin-left: 2px;
   }
 
    h4 {
@@ -251,7 +269,7 @@ padding: 8px;
   }
 
  footer a {
-font-size: 14px;
+font-size: 16px;
  }
 
  .content-container h1 {
@@ -262,5 +280,7 @@ font-size: 14px;
 text-align: center;
 }
 
-
+.open-sourced-footer {
+  margin: 10px;;
+}
 }
